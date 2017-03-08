@@ -6,9 +6,6 @@ data/raw/
 results/figures/
 results/pictures/
 
-# the scratch folder which, by definition should not contain anything worth saving
-scratch/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
