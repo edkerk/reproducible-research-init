@@ -1,10 +1,12 @@
-# folders holding data (which tends to be too big for git)
-data/clean/
-data/raw/
-
-# figures and pictures 
-results/figures/
-results/pictures/
+# folders holding data (which tends to be too big for git), bot do sync the readme files
+data/clean/*
+!data/clean/README.md
+data/external/*
+!data/external/README.md
+data/interim/*
+!data/interim/README.md
+data/raw/*
+!data/raw/README.md
 
 # the scratch folder which, by definition should not contain anything worth saving
 scratch/
@@ -30,6 +32,7 @@ var/
 
 # Other rubbish that accumulates
 \.#*
+*~
 .Rproj.user
 .Rhistory
 .RData
