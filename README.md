@@ -7,23 +7,34 @@ Overview
 --------
 
     project
-    |- doc/            # documentation for the study
-    |  +- paper/       # manuscript(s), whether generated or not
+    |- doc/             # documentation for the study and other explanatory material
+    |  +- paper/        # manuscript(s), whether generated or not
     |
-    |- data            # raw and primary data, are not changed once created 
-    |  |- raw/         # raw data, will not be altered
-    |  +- clean/       # cleaned data, will not be altered once created
+    |- data             # raw and primary data, are not changed once created 
+    |  |- raw/          # raw data generated in-lab or by collaborators, will not be altered
+    |  |- external/     # data from third-party sources, databases etc, will not be altered
+    |  |- interim/      # intermediate data that has been transformed, will not be altered once created
+    |  +- clean/        # cleaned data for figures/visualizations, will not be altered once created
     |
-    |- code/           # any programmatic code
-    |- results         # all output from workflows and analyses
-    |  |- figures/     # graphs, likely designated for manuscript figures
-    |  +- pictures/    # diagrams, images, and other non-graph graphics
+    |- notebook.txt     # a lab notebook where activities relating to this project should be entered
+    |- requirements.txt # the requirements file for reproducing the analysis environment, 
+    |                     e.g. generated with `pip freeze > requirements.txt`
     |
-    |- scratch/        # temporary files that can be safely deleted or lost
-    |- README          # the top level description of content
-    |- study.Rmd       # executable Rmarkdown for this study, if applicable
-    |- Makefile        # executable Makefile for this study, if applicable
-    |- study.Rproj     # RStudio project for this study, if applicable
+    |- code/            # all programmatic code relating to the project
+    |  |- wrangle       # scripts to download data, clean it and transform it
+    |  |- exploration   # scripts for exploring the data, not for publication figures
+    |  |- tests         # scripts for testing the integrity of the pipeline or data
+    |  +- visualization # scripts to generate publication figures, tables and visualizations from cleaned data
+    |
+    |- results          # all output from workflows and analyses
+    |  |- figures/      # graphs, likely designated for manuscript figures
+    |  +- pictures/     # diagrams, images, and other non-graph graphics 
+    |
+    |- scratch/         # temporary files that can be safely deleted or lost
+    |- README           # the top level description of content
+    |- study.Rmd        # executable Rmarkdown for this study, if applicable
+    |- Makefile         # executable Makefile for this study, if applicable
+    |- study.Rproj      # RStudio project for this study, if applicable
     |- datapackage.json # metadata for the (input and output) data files 
 
 How to use
@@ -32,7 +43,6 @@ How to use
 * Create a new directory for your project.
 * Download the [latest release] of this repository, and unzip it in the directory you just created.
 * Open this document in an editor. Change the first line to reflect the title of your research study, and delete the rest of the content in this file. You can, but are not obligated to keep the Acknowledgements section.
-* Delete the LICENSE.md file, unless it will also apply to your project. (However, it probbaly will not to all of it.)
 * Go forth and experiment, keeping files in their appropriate places.
 
 To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
