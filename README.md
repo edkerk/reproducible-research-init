@@ -22,9 +22,9 @@ Overview
     |
     |- code/            # all programmatic code relating to the project
     |  |- wrangle       # scripts to download data, clean it and transform it
-    |  |- exploration   # scripts for exploring the data, not for publication figures
-    |  |- tests         # scripts for testing the integrity of the pipeline or data
-    |  +- visualization # scripts to generate publication figures, tables and visualizations from cleaned data
+    |  |- explore       # scripts strictly for exploring the data, not for generating cleaned files or publication figures
+    |  |- test          # scripts for testing the integrity of the pipeline or data
+    |  +- visualize     # scripts to generate publication figures, tables etc. from cleaned data
     |
     |- results          # all output from workflows and analyses
     |  |- figures/      # graphs, likely designated for manuscript figures
