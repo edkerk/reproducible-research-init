@@ -66,7 +66,7 @@ Acknowledgements
 The initial file and directory structure of this project was developed by a group of participants in the Reproducible Science Curriculum Workshop, held at [NESCent] in December 2014. The structure is based on, and heavily follows the one proposed by [Noble 2009], with a few but small modifications.
 
 [rr-init repository]: https://github.com/Reproducible-Science-Curriculum/rr-init
-[latest release]: https://github.com/Reproducible-Science-Curriculum/rr-init/releases/latest
+[latest release]: https://github.com/EngqvistLab/reproducible-research-init/releases/latest
 [NESCent]: http://nescent.org
 [Rmarkdown]: http://rmarkdown.rstudio.com/
 [Noble 2009]: http://dx.doi.org/10.1371/journal.pcbi.1000424
