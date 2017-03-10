@@ -11,6 +11,9 @@ data/raw_internal/*
 # the scratch folder which, by definition should not contain anything worth saving
 scratch/
 
+# passwords etc
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

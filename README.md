@@ -16,12 +16,13 @@ Overview
     |  |- interim/      # intermediate data that has been transformed, will not be altered once created
     |  +- clean/        # cleaned data for figures/visualizations, will not be altered once created
     |
-    |- template.gitignore # a .gitignore template in case project will be hosted on github
+    |- .env             # a file to store passwords and usernames needed for the scripts. This will not get synced to GitHub.
     |- notebook.txt     # a lab notebook where activities relating to this project should be entered
     |- requirements.txt # the requirements file for reproducing the analysis environment, 
     |                     e.g. generated with `pip freeze > requirements.txt`
     |
     |- code/            # all programmatic code relating to the project
+    |  |- template_engine.py # tool for generating new Python scripts containing standardized code
     |  |- wrangle       # scripts to download data, clean it and transform it
     |  |- explore       # scripts strictly for exploring the data, not for generating cleaned files or publication figures
     |  |- test          # scripts for testing the integrity of the pipeline or data
@@ -44,6 +45,8 @@ How to use
 * Create a new directory for your project.
 * Download the [latest version] of this repository, and unzip it in the directory you just created.
 * Open this document in an editor. Change the first line to reflect the title of your research study, and delete the rest of the content in this file. You can, but are not obligated to keep the Acknowledgements section.
+* Modify the .env file to contain the passwords and usernames appropriate for your project.
+* Make use of the Python template file "template_engine.py" in the code folder each time a new Python script is needed. That way is has all the boilerplate code in it.
 * Go forth and experiment, keeping files in their appropriate places.
 
 To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
