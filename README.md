@@ -45,7 +45,7 @@ How to use
 * Download the [latest version] of this repository, and unzip it in the directory you just created.
 * Open this document in an editor. Change the first line to reflect the title of your research study, and delete the rest of the content in this file. You can, but are not obligated to keep the Acknowledgements section.
 * Go forth and experiment, keeping files in their appropriate places.
-* If the project will be hosted on GitHub do the following: re-name the file "template.gitignore" to ".gitignore". Then follow instructions on GitHub on how to add an already existing project.
+
 To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
 
 Key concepts and goals
