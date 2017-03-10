@@ -11,11 +11,12 @@ Overview
     |  +- paper/        # manuscript(s), whether generated or not
     |
     |- data             # raw and primary data, are not changed once created 
-    |  |- raw/          # raw data generated in-lab or by collaborators, will not be altered
-    |  |- external/     # data from third-party sources, databases etc, will not be altered
+    |  |- raw_internal/ # raw data generated in-lab or by collaborators, will not be altered
+    |  |- raw_external/ # data from third-party sources, databases etc, will not be altered
     |  |- interim/      # intermediate data that has been transformed, will not be altered once created
     |  +- clean/        # cleaned data for figures/visualizations, will not be altered once created
     |
+    |- template.gitignore # a .gitignore template in case project will be hosted on github
     |- notebook.txt     # a lab notebook where activities relating to this project should be entered
     |- requirements.txt # the requirements file for reproducing the analysis environment, 
     |                     e.g. generated with `pip freeze > requirements.txt`
@@ -44,7 +45,7 @@ How to use
 * Download the [latest version] of this repository, and unzip it in the directory you just created.
 * Open this document in an editor. Change the first line to reflect the title of your research study, and delete the rest of the content in this file. You can, but are not obligated to keep the Acknowledgements section.
 * Go forth and experiment, keeping files in their appropriate places.
-
+* If the project will be hosted on GitHub do the following: re-name the file "template.gitignore" to ".gitignore". Then follow instructions on GitHub on how to add an already existing project.
 To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
 
 Key concepts and goals
