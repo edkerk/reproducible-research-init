@@ -13,7 +13,6 @@ Overview
     |- data             # raw and primary data, are not changed once created 
     |  |- raw_internal/ # raw data generated in-lab or by collaborators, will not be altered
     |  |- raw_external/ # data from third-party sources, databases etc, will not be altered
-    |  |- interim/      # intermediate data that has been transformed, will not be altered once created
     |  +- clean/        # cleaned data for figures/visualizations, will not be altered once created
     |
     |- .env             # a file to store passwords and usernames needed for the scripts. This will not get synced to GitHub.
@@ -23,9 +22,8 @@ Overview
     |
     |- code/            # all programmatic code relating to the project
     |  |- template_engine.py # tool for generating new Python scripts containing standardized code
-    |  |- wrangle       # scripts to download data, clean it and transform it
+    |  |- prepare       # scripts to download data, clean it and transform it
     |  |- explore       # scripts strictly for exploring the data, not for generating cleaned files or publication figures
-    |  |- test          # scripts for testing the integrity of the pipeline or data
     |  +- visualize     # scripts to generate publication figures, tables etc. from cleaned data
     |
     |- results          # all output from workflows and analyses
@@ -49,7 +47,7 @@ How to use
 * Make use of the Python template file "template_engine.py" in the code folder each time a new Python script is needed. That way is has all the boilerplate code in it.
 * Go forth and experiment, keeping files in their appropriate places.
 
-To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [rr-init repository] is distributed without any warranty.
+To the extent possible under law, the author(s) of this template have dedicated all copyright and related and neighboring rights to it to the public domain worldwide under the [CC0 Public Domain Dedication]. The template and all other content in the [reproducible-research-init repository] is distributed without any warranty.
 
 Key concepts and goals
 ----------------------
@@ -69,7 +67,7 @@ Acknowledgements
 
 The initial file and directory structure of this project was developed by a group of participants in the Reproducible Science Curriculum Workshop, held at [NESCent] in December 2014. The structure is based on, and heavily follows the one proposed by [Noble 2009], with a few but small modifications.
 
-[rr-init repository]: https://github.com/Reproducible-Science-Curriculum/rr-init
+[reproducible-research-init repository]: https://github.com/EngqvistLab/reproducible-research-init
 [latest version]: https://github.com/EngqvistLab/reproducible-research-init
 [NESCent]: http://nescent.org
 [Rmarkdown]: http://rmarkdown.rstudio.com/
