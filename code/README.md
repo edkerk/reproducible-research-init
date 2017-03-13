@@ -1,3 +1,4 @@
 Folder containing all programmatic code relating to the project
 "template_engine.py" can be used to generate python files with standard code snippets inside. Kindly __make use of it__.
-`template_engine.py test_file.py`
+
+`python3 template_engine.py test_file.py`

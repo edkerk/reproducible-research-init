@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 
@@ -56,10 +56,29 @@ load_dotenv(dotenv_path)
 # database_url = os.environ.get("DATABASE_URL")
 # other_variable = os.environ.get("OTHER_VARIABLE")
 
-#########################
-
 # get the current working directory
-CURRENT_DIRECTORY = os.getcwd()
+CURRENT_DIR = os.getcwd()
+
+# project root directory
+ROOT_DIR = dotenv_path
+
+# internal data raw directory
+INT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_internal/')
+
+# external data raw directory
+EXT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_external/')
+
+# clean data directory
+CLEAN_DIR = join(PROJ_ROOT_DIR, 'data/clean/')
+
+# output directory
+OUT_DIR = join(PROJ_ROOT_DIR, 'results/')
+
+# figure output directory
+FIG_DIR = join(PROJ_ROOT_DIR, 'results/figures/')
+
+# picture output directory
+PIC_DIR = join(PROJ_ROOT_DIR, 'results/pictures/')
 
 
 #### Your code here ####
