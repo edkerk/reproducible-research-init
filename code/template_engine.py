@@ -43,7 +43,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
 from dotenv import load_dotenv, find_dotenv
-
+from os.path import join, dirname, isdir
 
 ### Load environmental variables from the project root directory ###
 # find .env automagically by walking up directories until it's found
@@ -60,7 +60,7 @@ load_dotenv(dotenv_path)
 CURRENT_DIR = os.getcwd()
 
 # project root directory
-ROOT_DIR = dotenv_path
+PROJ_ROOT_DIR = dirname(dotenv_path)
 
 # internal data raw directory
 INT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_internal/')

@@ -1,10 +1,10 @@
 # folders holding data (which tends to be too big for git), bot do sync the readme files
-data/clean/*
-!data/clean/README.md
+data/final/*
+!data/final/README.md
+data/intermediate/*
+!data/intermediate/README.md
 data/raw_external/*
 !data/raw_external/README.md
-data/interim/*
-!data/interim/README.md
 data/raw_internal/*
 !data/raw_internal/README.md
 
