@@ -1,7 +1,27 @@
-Reproducible Research Project Initialization
+Orphan enzyme project
 =======
 
-Research project initialization and organization following reproducible research guidelines.
+Goal is to identify sequences for orhpan enzymes and then use thse to evaluate some, as of yet unspecified, bioinformatic approach.
+
+as described in Shearer et al 2014
+Collect all EC numbers from BRENDA or ENZYME
+Check for sequences in UniProt, Enzyme, NCBI Entrez Protein, Orenza, BioCyc, TrEMBL
+Identify EC numbers which lack sequences in all these databases -> putative orphans
+Check BRENDA, MetaCyc and IUBMB for list of terms associated with an EC activity
+Check BRENDA and MetaCyc for seqeuence in commentary/clonning or protein section
+Collect references
+Make permutations of terms (remove numbers, dashes, references to co-fators or chirality)
+Search PubMed for more refrenceses using the expanded list of terms
+Search patents for those containing expanded list of terms
+Try to find sequence identifiers or sequence
+
+
+Curtosy update to UniProt
+Update to Brenda
+Submit update to GenBank
+
+
+
 
 Overview
 --------
