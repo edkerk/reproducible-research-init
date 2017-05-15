@@ -68,6 +68,9 @@ INT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_internal/')
 # external data raw directory
 EXT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_external/')
 
+# intermediate data directory
+INTERIM_DIR = join(PROJ_ROOT_DIR, 'data/intermediate/')
+
 # clean data directory
 CLEAN_DIR = join(PROJ_ROOT_DIR, 'data/clean/')
 
