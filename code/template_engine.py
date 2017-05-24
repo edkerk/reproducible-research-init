@@ -71,8 +71,8 @@ EXT_RAW_DIR = join(PROJ_ROOT_DIR, 'data/raw_external/')
 # intermediate data directory
 INTERIM_DIR = join(PROJ_ROOT_DIR, 'data/intermediate/')
 
-# clean data directory
-CLEAN_DIR = join(PROJ_ROOT_DIR, 'data/clean/')
+# final data directory
+FINAL_DIR = join(PROJ_ROOT_DIR, 'data/final/')
 
 # output directory
 OUT_DIR = join(PROJ_ROOT_DIR, 'results/')
