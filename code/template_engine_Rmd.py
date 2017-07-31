@@ -96,8 +96,8 @@ INTERMEDIATE = paste0(DATA, '/intermediate/')
 FINAL = paste0(DATA, '/final/')
 
 RESULTS <- paste0(PROJ, '/results/')
-FIGURES <- paste0(RESULTS, '/figures/')
-PICTURES <- paste0(RESULTS, '/figures/')
+FIGURES <- paste0(RESULTS, 'figures/')
+PICTURES <- paste0(RESULTS, 'pictures/')
 ```
 
 
